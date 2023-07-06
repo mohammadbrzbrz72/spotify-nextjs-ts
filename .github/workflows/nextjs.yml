@@ -4,6 +4,9 @@
 #
 name: Deploy Next.js site to Pages
 
+env:
+  NODE_AUTH_TOKEN: ${{ secrets.MY_BEST_FREE_PROJECT}}
+
 on:
   # Runs on pushes targeting the default branch
   push:
