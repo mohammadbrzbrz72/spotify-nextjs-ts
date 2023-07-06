@@ -4,6 +4,6 @@
 //* solution https://github.com/vercel/next.js/issues/42164
 //? Good to know: Since Next.js 13.4, Strict Mode is true by default with app router,
 
-const nextConfig = { reactStrictMode: false };
+const nextConfig = { reactStrictMode: false, output: "export" };
 
 module.exports = nextConfig;
