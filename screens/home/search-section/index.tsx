@@ -62,7 +62,7 @@ export default function SearchSection() {
             className={styles.searchButton}
             loading={loading}
             onClick={() => {
-              searchDataRef.current.switch(refresh);
+              searchDataRef.current.switch(refresh as () => {});
             }}
           >
             SEARCH
