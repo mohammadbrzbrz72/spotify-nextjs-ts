@@ -14,13 +14,13 @@ export interface ISpotifyAlbumsCard {
 
 const styles = {
   main: `
-    w-[250px] h-[300px]
+    w-full sm:w-[250px] h-[350px] sm:h-[300px]
     rounded-md
-    overflow-x-hidden
+    overflow-hidden
     bg-white
   `,
   img: `
-    w-full h-[150px]
+    w-full h-[250px] sm:h-[150px]
     object-center object-cover
   `,
   infoBox: `
