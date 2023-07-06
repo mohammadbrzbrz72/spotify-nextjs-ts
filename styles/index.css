@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "globals.css";
+@import "animation.css";
+
+@layer components {
+  .txt-w300-s12 {
+    @apply text-xs font-light;
+  }
+
+  /* test border */
+  .test-border {
+    @apply border border-red-700;
+  }
+}
